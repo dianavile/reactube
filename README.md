@@ -1,10 +1,12 @@
 # reactube 
 
-![reactube]()
+![reactube](https://github.com/dianavile/reactube/blob/development/src/assets/reactube.png)
 
 ## Commit1: `«initialCommit»`
 - Installation
 -  ```npx install create-react-app```
+- Required: node.js and yarn packages manager
+
 - Dependencies 
 -  ```yarn add axios```
 -  ```yarn add @material-ui/core```
@@ -15,6 +17,8 @@
 
 ## Commit2: `«appComponent»`
 - Create App component
+- Dependencies 
+-  ```yarn add firebase```
 
 ## Commit3: `«searchBarComponent»`
 - Create SearchBar component
