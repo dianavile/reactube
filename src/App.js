@@ -2,7 +2,7 @@ import React from 'react';
 import { Grid } from "@material-ui/core";
 import './App.css';
 import youtube from '../src/api/youtube';
-import { SearchBar, VideoList } from "./components";
+import { SearchBar, VideoList, VideoDetail } from "./components";
 
 //create classbased component with state
 class App extends React.Component {
@@ -45,7 +45,7 @@ class App extends React.Component {
                 <SearchBar onFormSubmit={this.handleSubmit}/>
             </Grid>
             <Grid item xs={8} className="videoDetail">
-              VIDEODETAIL
+              <VideoDetail video={selectedVideo} />
             </Grid>
             <Grid item xs={4}>
               <VideoList videos={videos} onVideoSelect={this.onVideoSelect}/>
