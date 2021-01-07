@@ -2,7 +2,18 @@
 
 ![reactube](https://github.com/dianavile/reactube/blob/development/src/assets/reactube.png)
 
-## Commit1: `«initialCommit»`
+## PART 1: Planification, Features & Commits
+- [X] Install project with Create-React-App
+- [X] Add dependencies 
+- [X] Create App component
+- [X] Add YouTube Api  
+- [X] Create SearchBar component
+- [X] Create VideoList component
+- [X] Create VideoItem component
+- [X] Create VideoDetail component
+- [X] Debug ReacTube Application (working on it!)
+
+### Commit1: `«initialCommit»`
 - Installation
 -  ```npx install create-react-app```
 - Required: node.js and yarn packages manager
@@ -15,24 +26,46 @@
 -  ```yarn add react-loading```
 -  ```yarn add react-loader-spinner```
 
-## Commit2: `«appComponent»`
+### Commit2: `«appComponent»`
 - Create App component
 - Dependencies 
 -  ```yarn add firebase```
 
-## Commit3: `«searchBarComponent»`
+### Commit3: `«searchBarComponent»`
 - Create SearchBar component
 
-## Commit4: `«videoListomponent»`
+### Commit4: `«videoListomponent»`
 - Create VideoList component
 
-## Commit5: `«videoItemComponent»`
+### Commit5: `«videoItemComponent»`
 - Create VideoItem component
 
-## Commit6:  `«videoDetailComponent»`
+### Commit6:  `«videoDetailComponent»`
 - Create VideoDetail component 
 
-# Getting Started with Create React App
+## PART 2: Planification & Features & Commits
+- [X] Create Dashboard with all functionalities ReacTube App
+- [X] #Feature1: RecommendedVideos, 
+        & how to get RecommendedVideos from API? 
+        & show on Dashboard
+- [X] #Feature2: SearchHistoryVideos
+        & store SearchHistory in localStorage
+        & show on Dashboard
+- [X] #Feature3: favoriteVideos  
+        & store favoriteVideos in localStorage
+        & show on Dashboard
+- [X] Improve VideoDetail
+- [X] Create RecommendedVideos page 
+- [X] Create SearchHistory page 
+- [X] Create FavoriteVideos page 
+- [X] Create FavoriteVideos page 
+- [X] Add Lateral Meny to React App  
+- [X] OPTIONAL: Add API tester queries to Youtube API 
+      & show on Dashboard
+- [X] Create links and routes to specific pages 
+- [X] Debug ReacTube Application
+
+# Getting Started with Create React App (belongs to PART 1)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

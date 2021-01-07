@@ -2,10 +2,10 @@ import React from 'react';
 import { Grid } from "@material-ui/core";
 import VideoItem from "./VideoItem";
 
-const VideoList = ({ videos, handleVideoSelect }) => { 
+const VideoList = ({ videos, onVideoSelect }) => { 
     const renderedVideos = videos.map((video, id) =>(
     <VideoItem
-      handleVideoSelect={handleVideoSelect}
+      onVideoSelect={onVideoSelect}
       key={id}
       video={video}
     />
