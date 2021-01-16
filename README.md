@@ -1,6 +1,9 @@
 # reactube 
 
-![reactube](https://github.com/dianavile/reactube/blob/development/src/assets/reactube.png)
+![reactube-DESIGN](https://github.com/dianavile/reactube/blob/development/src/assets/reactube.png)
+
+# DEMO on [CODESANDBOX]()
+![reactube-demo]()
 
 ## PART 1: Planification, Features & Commits
 - [X] Install project with Create-React-App
@@ -11,7 +14,7 @@
 - [X] Create VideoList component
 - [X] Create VideoItem component
 - [X] Create VideoDetail component
-- [X] Debug ReacTube Application (working on it!)
+- [X] Debug ReacTube Application
 
 ### Commit1: `«initialCommit»`
 - Installation
@@ -28,8 +31,6 @@
 
 ### Commit2: `«appComponent»`
 - Create App component
-- Dependencies 
--  ```yarn add firebase```
 
 ### Commit3: `«searchBarComponent»`
 - Create SearchBar component
@@ -44,26 +45,25 @@
 - Create VideoDetail component 
 
 ## PART 2: Planification & Features & Commits
-- [X] Create Dashboard with all functionalities ReacTube App
-- [X] #Feature1: RecommendedVideos, 
+- [] TODO:Create Dashboard with all functionalities ReacTube App
+- [] TODO: #Feature1: RecommendedVideos, 
         & how to get RecommendedVideos from API? 
         & show on Dashboard
-- [X] #Feature2: SearchHistoryVideos
+- [] TODO: #Feature2: SearchHistoryVideos
         & store SearchHistory in localStorage
         & show on Dashboard
-- [X] #Feature3: favoriteVideos  
+- [] TODO: #Feature3: favoriteVideos  
         & store favoriteVideos in localStorage
         & show on Dashboard
-- [X] Improve VideoDetail
-- [X] Create RecommendedVideos page 
-- [X] Create SearchHistory page 
-- [X] Create FavoriteVideos page 
-- [X] Create FavoriteVideos page 
-- [X] Add Lateral Meny to React App  
-- [X] OPTIONAL: Add API tester queries to Youtube API 
+- [] TODO: Improve VideoDetail
+- [] TODO: Create RecommendedVideos page 
+- [] TODO: Create SearchHistory page 
+- [] TODO: Create FavoriteVideos page 
+- [] TODO: Add Lateral Menu to React App  
+- [] TODO: OPTIONAL: Add API tester queries to Youtube API 
       & show on Dashboard
-- [X] Create links and routes to specific pages 
-- [X] Debug ReacTube Application
+- [] TODO: Create links and routes to specific pages 
+- [] TODO: Debug ReacTube Application
 
 # Getting Started with Create React App (belongs to PART 1)
 
