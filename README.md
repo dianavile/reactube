@@ -2,8 +2,8 @@
 
 ![reactube-DESIGN](https://github.com/dianavile/reactube/blob/development/src/assets/reactube.png)
 
-# DEMO on [CODESANDBOX]()
-![reactube-demo]()
+# DEMO on [CODESANDBOX](https://codesandbox.io/s/rough-cookies-3hopq)
+![reactube-demo](https://github.com/dianavile/reactube/blob/development/src/assets/images/reactube-demo.png)
 
 ## PART 1: Planification, Features & Commits
 - [X] Install project with Create-React-App
