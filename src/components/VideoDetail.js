@@ -5,7 +5,7 @@ const VideoDetail = ({ video }) => {
     if (!video) return <h2>Loading...</h2>;
 
     const videoSrc = `https://www.youtube.com/embed/${video.id.videoId}`;
-    
+    // console.log(typeof(video));
     return (
         <React.Fragment>
             <Paper elevation={6} style={{ height: "50%" }}>
