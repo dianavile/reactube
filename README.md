@@ -17,12 +17,11 @@
 - [X] Debug ReacTube Application
 
 ### Commit1: `«initialCommit»`
-- Installation
--  ```npx install create-react-app```
 - Required: node.js and yarn packages manager
-
-- Dependencies 
--  ```yarn add axios```
+- Installation: Create project with CLI 
+  ```npx install create-react-app [projectname]``` 
+- Install dependencies  
+-  ```yarn add axios```//to use API
 -  ```yarn add @material-ui/core```
 -  ```yarn add @material-ui/icons```
 -  ```yarn add react-bootstrap```
@@ -30,19 +29,28 @@
 -  ```yarn add react-loader-spinner```
 
 ### Commit2: `«appComponent»`
-- Create App component
+- Update App component
+- Create api folder.
+- Add key to fetch api data. 
 
 ### Commit3: `«searchBarComponent»`
 - Create SearchBar component
-
+- Add form with search tag.
+- Add methods & events.
 ### Commit4: `«videoListomponent»`
 - Create VideoList component
+- Add props destructuring 
+- Add mapping  
+to access the list of the videos
 
 ### Commit5: `«videoItemComponent»`
 - Create VideoItem component
-
+- Access snippet information 
+- Structure video item with features (title, description).
 ### Commit6:  `«videoDetailComponent»`
 - Create VideoDetail component 
+-Render selected video 
+- Add extra information in large size
 
 ## PART 2: Planification & Features & Commits
 - [] TODO:Create Dashboard with all functionalities ReacTube App
@@ -65,7 +73,7 @@
 - [] TODO: Create links and routes to specific pages 
 - [] TODO: Debug ReacTube Application
 
-# Getting Started with Create React App (belongs to PART 1)
+# Getting Started with Create React App 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
